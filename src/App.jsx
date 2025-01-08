@@ -1,12 +1,15 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
+import Sidebar from './components/Sidebar'
+import Player from './components/Player'
 
 const App = () => {
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div className='h-screen bg-black'>
+      <div className='h-[90%] flex'>
+        <Sidebar />
+      </div>
+      <Player />
     </div>
   )
 }
