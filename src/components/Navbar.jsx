@@ -23,6 +23,8 @@ const Navbar = () => {
           <p className='bg-black  px-2 hover:scale-105 py-1 text-[12px] rounded-2xl cursor-pointer '>Podcast</p>
         </div>
 
+        
+
     </>
   )
 }
