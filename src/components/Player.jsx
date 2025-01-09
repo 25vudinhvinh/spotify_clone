@@ -34,7 +34,7 @@ const Player = () => {
                 <div ref={seekBg} className='w-[60vw] max-w-[500px] bg-gray-300 rounded-full cursor-pointer'>
                     <hr ref={seekBar} className='h-1 border-none w-0 bg-green-500 rounded-full' />
                 </div>
-                <p>3:20</p>
+                <p>{time.totalTime.minute}:{time.totalTime.second}</p>
             </div>
       </div>
 
